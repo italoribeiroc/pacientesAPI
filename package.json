@@ -1,0 +1,22 @@
+{
+  "name": "cadastro-pacientes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "handler.js",
+  "dependencies": {
+    "aws-sdk": "^2.1046.0",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "faker": "^5.5.3",
+    "serverless-dynamodb-local": "^0.2.40",
+    "serverless-offline": "^8.3.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fixtures": "./bin/fixtures"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
